@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		0160EF8820CC3D190088E090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0160EF8720CC3D190088E090 /* AppDelegate.swift */; };
-		0160EF8A20CC3D190088E090 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0160EF8920CC3D190088E090 /* ViewController.swift */; };
 		0160EF8D20CC3D190088E090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0160EF8B20CC3D190088E090 /* Main.storyboard */; };
 		0160EF9020CC3D190088E090 /* IntervalTimer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0160EF8E20CC3D190088E090 /* IntervalTimer.xcdatamodeld */; };
 		0160EF9220CC3D1A0088E090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0160EF9120CC3D1A0088E090 /* Assets.xcassets */; };
 		0160EF9520CC3D1A0088E090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0160EF9320CC3D1A0088E090 /* LaunchScreen.storyboard */; };
+		0160EF9D20CC3FAD0088E090 /* TimerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0160EF9C20CC3FAD0088E090 /* TimerTableViewController.swift */; };
+		0160EF9F20CC3FE80088E090 /* EditTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0160EF9E20CC3FE80088E090 /* EditTimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0160EF8420CC3D190088E090 /* IntervalTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntervalTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0160EF8720CC3D190088E090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0160EF8920CC3D190088E090 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0160EF8C20CC3D190088E090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0160EF8F20CC3D190088E090 /* IntervalTimer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IntervalTimer.xcdatamodel; sourceTree = "<group>"; };
 		0160EF9120CC3D1A0088E090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0160EF9420CC3D1A0088E090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0160EF9620CC3D1A0088E090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0160EF9C20CC3FAD0088E090 /* TimerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTableViewController.swift; sourceTree = "<group>"; };
+		0160EF9E20CC3FE80088E090 /* EditTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				0160EF8720CC3D190088E090 /* AppDelegate.swift */,
-				0160EF8920CC3D190088E090 /* ViewController.swift */,
 				0160EF8B20CC3D190088E090 /* Main.storyboard */,
+				0160EF9C20CC3FAD0088E090 /* TimerTableViewController.swift */,
+				0160EF9E20CC3FE80088E090 /* EditTimerViewController.swift */,
 				0160EF9120CC3D1A0088E090 /* Assets.xcassets */,
 				0160EF9320CC3D1A0088E090 /* LaunchScreen.storyboard */,
 				0160EF9620CC3D1A0088E090 /* Info.plist */,
@@ -139,7 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0160EF9020CC3D190088E090 /* IntervalTimer.xcdatamodeld in Sources */,
-				0160EF8A20CC3D190088E090 /* ViewController.swift in Sources */,
+				0160EF9D20CC3FAD0088E090 /* TimerTableViewController.swift in Sources */,
+				0160EF9F20CC3FE80088E090 /* EditTimerViewController.swift in Sources */,
 				0160EF8820CC3D190088E090 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

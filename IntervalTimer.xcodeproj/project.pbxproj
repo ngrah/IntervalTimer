@@ -14,6 +14,7 @@
 		0160EF9520CC3D1A0088E090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0160EF9320CC3D1A0088E090 /* LaunchScreen.storyboard */; };
 		0160EF9D20CC3FAD0088E090 /* TimerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0160EF9C20CC3FAD0088E090 /* TimerTableViewController.swift */; };
 		0160EF9F20CC3FE80088E090 /* EditTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0160EF9E20CC3FE80088E090 /* EditTimerViewController.swift */; };
+		0160EFA120CC4C5B0088E090 /* timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0160EFA020CC4C5B0088E090 /* timer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		0160EF9620CC3D1A0088E090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0160EF9C20CC3FAD0088E090 /* TimerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTableViewController.swift; sourceTree = "<group>"; };
 		0160EF9E20CC3FE80088E090 /* EditTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTimerViewController.swift; sourceTree = "<group>"; };
+		0160EFA020CC4C5B0088E090 /* timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				0160EF8720CC3D190088E090 /* AppDelegate.swift */,
 				0160EF8B20CC3D190088E090 /* Main.storyboard */,
+				0160EFA020CC4C5B0088E090 /* timer.swift */,
 				0160EF9C20CC3FAD0088E090 /* TimerTableViewController.swift */,
 				0160EF9E20CC3FE80088E090 /* EditTimerViewController.swift */,
 				0160EF9120CC3D1A0088E090 /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			files = (
 				0160EF9020CC3D190088E090 /* IntervalTimer.xcdatamodeld in Sources */,
 				0160EF9D20CC3FAD0088E090 /* TimerTableViewController.swift in Sources */,
+				0160EFA120CC4C5B0088E090 /* timer.swift in Sources */,
 				0160EF9F20CC3FE80088E090 /* EditTimerViewController.swift in Sources */,
 				0160EF8820CC3D190088E090 /* AppDelegate.swift in Sources */,
 			);
